@@ -5,20 +5,40 @@ body{
 h1{
     background-color: rgb(141, 141, 163);
     color: blue;
-    font-size: 40px;
-    margin: 20px;
+    font-size: 40px auto 0px auto;
+    margin: 35px;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 0%;
     text-align: center;
 }
+.botoes{
+    text-align: right;
+}
+.botoes li{
+    display: inline-block;
+    
+}
+.botoes a{
+    background-color: blanchedalmond;
+    padding: 15px;
+   
+}
+.botoes a:hover{
+    background-color: black;
+}
+
 b{
     font-size: 17px;
 }
 #p1{
-    margin: 1px;
+    background-color: rgb(131, 131, 156);
+    padding-top: none;
+    margin-top: 0px;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
+    
 }
 h2{
     background-color: #ccc;
@@ -32,6 +52,7 @@ h2{
     padding: 3px;
 }
 strong{
+    font-size: 17px;
     color: blue;
 }
 
