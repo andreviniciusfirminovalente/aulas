@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #474747;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background-color: #8B3F3F;
+    width: 745px;
+    height: auto;
+    border-radius: 0px 25px 0px 25px;
+    padding: 29px 63px;
+}
+
+.logout{
+    width: 75px;
+    height: 75px;
+    background-color: blue;
+}
+
+.add{
+    width: 75px;
+    height: 75px;
+    background-color: green;
+}
+
+.home{
+    width: 75px;
+    height: 75px;
+    background-color: white;
+}
